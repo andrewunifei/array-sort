@@ -1,0 +1,14 @@
+.upperDiv {
+    width: 310px;
+    height: 36px;
+    display: block;
+    background-color: #005FEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff
+}

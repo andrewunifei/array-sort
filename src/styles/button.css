@@ -1,0 +1,19 @@
+.button {
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid #005FEE 1px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover{
+    background-color: #005FEE;
+    color: white;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: rgb(4, 73, 177);
+    color: white;
+    transition: 0s;
+}

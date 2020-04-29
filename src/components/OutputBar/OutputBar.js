@@ -6,7 +6,15 @@ class OutputBar extends React.Component{
         return (
             <div className="componentDiv">
                 <div className="upperDiv">{this.props.innerText}</div>
-                <div className="outputDiv" data-placeholder='data- placeholder'></div>
+                <div 
+                    className="outputDiv"
+                    data-placeholder='data- placeholder'>
+                        {
+                            this.props.array.map(element => {
+                                return element + ' '
+                            })
+                        }
+                </div>
                 <button className="button">{this.props.buttonValue}</button>
             </div>
         );

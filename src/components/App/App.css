@@ -7,3 +7,9 @@
     align-items: center;
     flex-direction: column;
 }
+
+.backG2 {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 0 25px;
+}
