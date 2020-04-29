@@ -1,0 +1,55 @@
+.componentDiv {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    margin: 50px 0 50px 0;
+}
+
+.upperDiv {
+    width: 310px;
+    height: 36px;
+    display: block;
+    background-color: #005FEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff
+}
+
+.inputBar {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 310px;
+    height: 40px;
+    border-radius: 0px 0px 5px 5px;
+    border: none;
+    margin-bottom: 10px;
+    border-top: 0;
+    border-bottom: solid black 1px;
+}
+
+.button {
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover{
+    background-color: #005FEE;
+    color: white;
+    cursor: pointer; 
+}
+
+.button:active{
+    background-color: rgb(4, 73, 177);
+    color: white;
+}
